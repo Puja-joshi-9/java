@@ -1,0 +1,69 @@
+Object Oriented Programming in Java
+
+concepts of oop
+
+1> class and object
+2> Encapsulation
+3> Polymorphism
+4> Abstract 
+    a> Abstract Class
+    b> Interface
+
+class == to represent real world entities.
+. basic unit of oop
+. without class no any actions can be performed in oop
+. class contains variables, methods, properties.
+. class can be called blueprint of object as it is model of our program to be developed
+
+. implementation of class is in fact object as it is implemented form of concept ie class.
+. collection of object is class.
+. instance of the class is called object as it bears feature of class.
+
+Syntax :
+
+class class-name {
+
+	//properties/ features / instance variable / state ;
+	// Methods/ Functions;
+}
+
+Syntax for object
+
+class-name object-name = new class-name();
+
+eg 
+Book b2;
+b2 = new Book();
+Book b1 = new Book();
+
+user defined data-type or reference type data-type...
+
+Constructor:
+
+. creates object
+. without constructor no object is created.
+. eg Book B = new Book();
+. here Book() is a constructor;
+. B is the object returned by constructor Book();
+. 
+. no returntype but is similar to method and having same name as class name.
+
+. no return-type but also returns object so called implicit return-type function
+. Regular functions returns values explicitly;
+. the value that object holds at a time is called state;
+
+. this. calls object variables
+. but this(); calls constructor
+. this also can call methods in another method
+
+===java Static Keyword===
+
+. static variables can also be made instance but memory occupied by it is more thus this method is not used.
+. static variables are class variables as they are loaded during formation of class. deu to this class calls static variables.
+. static is always associated with memory. makes programming efficient.
+. static belongs to class but not to object.
+. instance variable causes memory loss.
+. if only few instance r required among many memory gets wasted
+. so in such context static is useful
+
+. instance means called by object in any context.
