@@ -1,0 +1,3 @@
+to edit file use vi <<filename>>
+then press i to edit
+after editing enter wq! to save and quit.
